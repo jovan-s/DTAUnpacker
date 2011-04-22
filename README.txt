@@ -1,30 +1,33 @@
-DTAUnpacker 1.0
----------------
+Hidden & Dangerous 2 and Mafia .DTA Archive Extractor
+=====================================================
 
-Description:
-	Use this program to extract the .DTA files from Hidden & Dangerous 2 and Mafia. Place
-	DTAUnpacker.exe and tmp.dll in your Hidden & Dangerous 2, or Mafia directory.
+Description
+-----------
 
-	You need to run the program from the command-line, and provide it with 3 arguments:
-	>DTAUnpacker.exe [DTA file] [key1] [key2]
+Use this program to extract the .DTA files from Hidden & Dangerous 2 and Mafia. 
+PlaceDTAUnpacker.exe and tmp.dll in your Hidden & Dangerous 2, or Mafia directory.
 
-		example:
+You need to run the program from the command-line, and provide it with 3 arguments:
 
-		>DTAunpacker.exe Sounds.dta 0x8D2965CA 0x4FE85106
+`DTAUnpacker.exe [DTA file] [key1] [key2]`
 
-	You can obtain the list of keys for specific files by simply running the program without
-	the 3 arguments. Note that the keys are hardcoded so they cannot be changed.
+Like so:
 
-	The program only works with .DTA version ISD0. H&D2:SS uses ISD1, which is a different
-	file format. Not all files are supported at the moment, but they will be in the future.
+`DTAunpacker.exe Sounds.dta 0x8D2965CA 0x4FE85106`
 
+You can obtain the list of keys for specific files by simply running the program without
+the 3 arguments. Note that the keys are hardcoded so they cannot be changed.
 
-Special Thanks To:
-	MassaSnygga, "Accessing Mafias DTA files", http://www.kamalook.de/Mafia/DTA.html
-	Lars
+The program only works with .DTA version ISD0. H&D2:SS uses ISD1, which is a different
+file format. Not all files are supported at the moment, but they will be in the future.
 
+Special Thanks
+--------------
 
-Author:
-	Jovan
-						Please distribute the source code with the program.
-								Let me know if you have any problems.
+MassaSnygga, "Accessing Mafias DTA files", http://www.kamalook.de/Mafia/DTA.html
+
+Lars
+
+---
+
+by Jovan Stanojlovic
